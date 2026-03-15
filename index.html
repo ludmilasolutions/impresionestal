@@ -55,10 +55,11 @@
 </a>
 <!-- Desktop Navigation -->
 <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium">
-<a class="text-white/80 hover:text-brandCyan transition-colors" href="#hero">Inicio</a>
-<a class="text-white/80 hover:text-brandMagenta transition-colors" href="#servicios">Servicios</a>
-<a class="text-white/80 hover:text-brandYellow transition-colors" href="#nosotros">Nosotros</a>
-<a class="text-white/80 hover:text-brandCyan transition-colors" href="#contacto">Contacto</a>
+  <a class="text-white/80 hover:text-brandCyan transition-colors" href="#hero">Inicio</a>
+  <a class="text-white/80 hover:text-brandMagenta transition-colors" href="#servicios">Servicios</a>
+  <a class="text-white/80 hover:text-brandYellow transition-colors" href="#galeria">Galería</a>
+  <a class="text-white/80 hover:text-brandCyan transition-colors" href="#nosotros">Nosotros</a>
+  <a class="text-white/80 hover:text-brandMagenta transition-colors" href="#contacto">Contacto</a>
 </nav>
 <div class="hidden lg:block">
 <a class="px-4 py-2 bg-brandCyan hover:bg-brandCyan/90 text-black font-bold rounded-full text-sm" href="https://wa.me/5493413982456">Cotizar</a>
@@ -174,6 +175,24 @@
 </div>
 </section>
 <!-- END: ServicesSection -->
+
+<!-- BEGIN: GaleriaSection -->
+<section class="py-32 bg-brandDark" id="galeria">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
+      <div class="max-w-2xl">
+        <h2 class="text-4xl md:text-5xl font-black mb-6">Nuestra Galería</h2>
+        <p class="text-gray-400 text-lg leading-relaxed">Conociendo algunos de nuestros trabajos realizados.</p>
+      </div>
+      <div class="hidden md:block pb-2">
+        <div class="w-32 h-1 bg-brandYellow"></div>
+      </div>
+    </div>
+    <div id="galeria-container"></div>
+  </div>
+</section>
+<!-- END: GaleriaSection -->
+
 <!-- BEGIN: WhyChooseUs -->
 <section class="py-32" id="nosotros">
 <div class="container mx-auto px-4">
@@ -232,10 +251,11 @@
 <div>
 <h4 class="font-black text-white uppercase tracking-widest text-sm mb-10 border-l-4 border-brandMagenta pl-4">Navegación</h4>
 <ul class="space-y-5 text-gray-400 font-medium">
-<li><a class="hover:text-brandCyan transition-colors" href="#hero">Inicio</a></li>
-<li><a class="hover:text-brandMagenta transition-colors" href="#servicios">Servicios</a></li>
-<li><a class="hover:text-brandYellow transition-colors" href="#nosotros">Nosotros</a></li>
-<li><a class="hover:text-brandCyan transition-colors" href="https://wa.me/5493413982456">Presupuesto Rápido</a></li>
+  <li><a class="hover:text-brandCyan transition-colors" href="#hero">Inicio</a></li>
+  <li><a class="hover:text-brandMagenta transition-colors" href="#servicios">Servicios</a></li>
+  <li><a class="hover:text-brandYellow transition-colors" href="#galeria">Galería</a></li>
+  <li><a class="hover:text-brandCyan transition-colors" href="#nosotros">Nosotros</a></li>
+  <li><a class="hover:text-brandMagenta transition-colors" href="#contacto">Contacto</a></li>
 </ul>
 </div>
 <!-- Column 3: Contact Info -->
@@ -273,4 +293,5 @@
 </svg>
 </a>
 </main>
+<script src="galeria.js"></script>
 </body></html>
